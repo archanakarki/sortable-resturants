@@ -1,0 +1,62 @@
+p{ color: #1F2025 }
+
+/* Individual resturant elements */
+.Resturant{
+    text-align: center;
+    padding: 2%;
+    overflow-wrap: break-word;
+}
+
+.Resturant:hover{
+    background-color: #e6e6e6;
+}
+
+/*Elements inside resturants row*/
+.Resturant-title{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.Resturant-image{
+    position: relative;
+    box-shadow: whitesmoke 2px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.Resturant-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.Resturant-image img:hover{ opacity : 0.95; }
+.Resturant-blurhash{
+    color: rgb(139, 139, 139);
+    font-size: 12px;
+}
+
+.Resturant-delivery{
+    width:60%;
+    margin: 0 auto;
+    padding: 3%;
+    background-color: #008ae6;
+    color: white;
+    border-radius: 10px;
+}
+
+.Resturant-tags{
+    font-weight: 600;
+    color :#008ae6;
+}
+
+/*Adjsting buttons row margin*/
+@media only screen and (max-width:768px){
+    .Resturant{
+        margin-bottom: 5%;
+    }
+    .Resturant-title{
+        font-weight: bold;
+        font-size: 22px !important;
+    }
+}
