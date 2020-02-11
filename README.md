@@ -14,7 +14,7 @@ This react app fetches the data of resturants from a json file, displays it and 
     
     Important commands to run the project:
     1) To open the project folders in terminal. 
-        cd task > cd frontend
+        cd sortable_resturants > cd frontend
     2) To run the app:
         npm install
         npm start
