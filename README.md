@@ -7,7 +7,7 @@ This react app fetches the data of resturants from a json file, displays it and 
     2) No restrictions on design so restaurants can be displayed vertically, horizontally, or on a grid. Aim should be for a clear and responsive design.
     3) In addition of rendering restaurants, possibility to sort restaurants alphabetically in ascending and descending order, e.g. by adding a sort-button on the top of the list should be created.
  
-#### App can be found at (https://frontend-task.netlify.com/).
+#### App can be found at (https://sortableresturants.netlify.com/).
 
 ### Implementation of the solution
     React is used for the solution and React Hooks(State and Effect) is used for the state management of the app.
